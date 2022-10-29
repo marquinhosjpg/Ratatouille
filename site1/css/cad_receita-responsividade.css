@@ -1,0 +1,18 @@
+
+/* Responsividade Cad-Receita */
+
+@media only screen and (max-width: 1500px)
+{
+    .conteudo{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 10vh;
+    }
+
+    .btn{
+        margin-top: 20px;
+        width: 100%;
+        background: #998670;
+    }
+    
+}
