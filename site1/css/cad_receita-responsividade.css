@@ -1,0 +1,86 @@
+
+/* Responsividade Cad-Receita */
+
+@media only screen and (max-width: 1366px)
+{
+    .conteudo{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 10vh;
+    }
+
+    .btn{
+        margin-top: 65px;
+        width: 90%;
+    }
+
+    .time{
+        margin-top: -10px;
+    }
+
+    .porcao{
+        margin-top: -10px;
+    }
+
+    .icon-cam{
+        margin-top: -45px;
+    }
+
+    
+    ul{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .container-nome-receita{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .txt-area{
+        width: 90%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .display{
+        width: 90%;
+        margin: auto;
+    }
+
+    .info-grupo{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .container-categoria{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;}
+}
+
+/*
+ @media only screen and (max-width: 1700px)
+{
+    .btn{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 2200px)
+{
+    .btn{
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 2300px)
+{
+    .btn{
+        margin-top: 100px;
+    }
+} */
